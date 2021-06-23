@@ -30,15 +30,15 @@
             <div class="row">
                 <div class="col-6">
                     <a class="navbar-brand" href="#">
-                        <img src="wp-content/themes/newtheme/logo/Myaddev.png" alt="" class="img-nav" width="58%" height="100%">
+                        <img src="wp-content/themes/addev/assets/images/logo/Myaddev.png" alt="" class="img-nav" width="58%" height="100%">
                     </a>
                 </div>
                 <div class="col-6 block-icon-nav d-flex justify-content-end flex-row">
                     <div class="border-icon-nav flex-row" height="33px">
-                        <a href="#"><img src="wp-content/themes/newtheme/logoheader/mail.png" alt="" width="35px" height=" 35px" class="align-text-top"></a>
-                        <a href="#"><img src="wp-content/themes/newtheme/logoheader/favoris.png" alt="" width="32px" height="32px" class=" icone-nav align-text-top"></a>
-                        <a href="#"><img src="wp-content/themes/newtheme/logoheader/notifications.png" width="32px" height="32px" alt="" class="icone-nav align-text-top"></a>
-                        <a href="#"><img src="wp-content/themes/newtheme/images/nav.jpg" width="32px" height="32px" alt="" class=" icone-nav align-text-top"></a>
+                        <a href="#"><img src="wp-content/themes/addev/assets/images/logoheader/mail.png" alt="" width="35px" height=" 35px" class="align-text-top"></a>
+                        <a href="#"><img src="wp-content/themes/addev/assets/images/logoheader/favoris.png" alt="" width="32px" height="32px" class=" icone-nav align-text-top"></a>
+                        <a href="#"><img src="wp-content/themes/addev/assets/images/logoheader/notifications.png" width="32px" height="32px" alt="" class="icone-nav align-text-top"></a>
+                        <a href="#"><img src="wp-content/themes/addev/assets/images/nav.jpg" width="32px" height="32px" alt="" class=" icone-nav align-text-top"></a>
                     </div>
                 </div>
             </div>

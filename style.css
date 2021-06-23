@@ -1214,20 +1214,20 @@ box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
 
 
 #carousel {
-display: flex;
-justify-content: flex-end;
-width: 450px;
-height: 260px;
-font-size: 120px;
-font-family: sans-serif;
-font-weight: 200px;
-padding-bottom: 10px;
-color: #253746;
-margin: auto;
-background-color: lightgray;
-text-align: center;
-align-items: center;
-border-radius: 30px;
+	display: flex;
+	justify-content: flex-end;
+	width: 450px;
+	height: 260px;
+	font-size: 120px;
+	font-family: sans-serif;
+	font-weight: 200px;
+	padding-bottom: 10px;
+	color: #253746;
+	margin: auto;
+	background-color: lightgray;
+	text-align: center;
+	align-items: center;
+	border-radius: 30px;
 
 
 }
@@ -1244,14 +1244,7 @@ border-radius: 30px;
  color: #253746;
  margin: 75px;
  align-items: center;
- padding-top: 180px;
+ padding-top: -80px;
 }
 
-div h3 {
- text-align: center;
- margin-top: 55px;
-}
 
-div h5 {
- margin-bottom: 75px;
-}

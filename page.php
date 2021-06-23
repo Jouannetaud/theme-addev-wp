@@ -35,7 +35,7 @@ get_header();
                 <div class=" col-1 d-flex flex-column justify-content-center menu-lateral-bloc dropdown">
                     <div class="box-lateral">
                         <a href="http://" class="slide-toggle">
-                            <img src="wp-content/themes/newtheme/logolateral/esperluette.png" alt="" class="img-fluid" />
+                            <img src="wp-content/themes/addev/assets/images/logolateral/esperluette.pngg" alt="" class="img-fluid" />
                         </a>
                         <div class="wrapper">
                             <a href="http://" class="w-100">INFOS GROUPE</a>
@@ -43,7 +43,7 @@ get_header();
                     </div>
                     <div class="box-lateral">
                         <a href="http://" class="slide-toggle">
-                            <img src="wp-content/themes/newtheme/logolateral/banque_doc.png" alt="" class="img-fluid" />
+                            <img src="wp-content/themes/addev/assets/images/logolateral/banque_doc.png" alt="" class="img-fluid" />
                         </a>
                         <div class="wrapper">
                             <a href="http://" class="w-100">INFOS GROUPE</a>
@@ -51,7 +51,7 @@ get_header();
                     </div>
                     <div class="box-lateral">
                         <a href="http://" class="slide-toggle">
-                            <img src="wp-content/themes/newtheme/logolateral/outils.png" alt="" class="img-fluid" />
+                            <img src="wp-content/themes/addev/assets/images/logolateral/outils.png" alt="" class="img-fluid" />
                         </a>
                         <div class="wrapper">
                             <a href="http://" class="w-100">INFOS GROUPE</a>
@@ -59,7 +59,7 @@ get_header();
                     </div>
                     <div class="box-lateral">
                         <a href="http://" class="slide-toggle">
-                            <img src="wp-content/themes/newtheme/logolateral/trombi.png" alt="" class="img-fluid" />
+                            <img src="wp-content/themes/addev/assets/images/logolateral/trombi.png" alt="" class="img-fluid" />
                         </a>
                         <div class="wrapper">
                             <a href="http://" class="w-100">INFOS GROUPE</a>
@@ -67,7 +67,7 @@ get_header();
                     </div>
                     <div class="box-lateral">
                         <a href="http://" class="slide-toggle">
-                            <img src="wp-content/themes/newtheme/logolateral/formation.png" alt="" class="img-fluid" />
+                            <img src="wp-content/themes/addev/assets/images/logolateral/formation.png" alt="" class="img-fluid" />
                         </a>
                         <div class="wrapper">
                             <a href="http://" class="w-100">INFOS GROUPE</a>

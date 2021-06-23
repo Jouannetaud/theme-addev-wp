@@ -12,15 +12,18 @@
 ?>
 
 	<footer id="colophon" class="site-footer">
-	<div class="container-fluid">
+	<  <div class="container-fluid">
 
-  <div class="footer-block col-10 d-flex justify-content-between align-items-center">
-	  <div class="block-aide">
-		  <img src="wp-content/themes/newtheme/logofooter/aide.png" alt="" height="70px" width="70px">
-		  <a href="#" class="m-2">Besoin d'aide ?</a>
-	
+            <div class="footer-block col-10 d-flex justify-content-between align-items-center">
+                <div class="block-aide">
+                    <img src="wp-content/themes/addev/assets/images/logofooter/aide.png" alt="" height="70px" width="70px">
+                    <a href="#" class="m-2">Besoin d'aide ?</a>
+                </div>
+                <a href="wp-content/themes/newtheme/logo-addev-blanc-footer.png"class="faq-footer">FAQ</a>
+                <img src="wp-content/themes/addev/assets/images/logofooter/logo-addev-blanc-footer.png" alt="" class="logo-addev-footer">
+            </div>
 
-</div>
+    </div>
 		<div class="site-info">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'addev' ) ); ?>">
 				<?php
