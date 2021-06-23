@@ -12,7 +12,7 @@
 ?>
 
 	<footer id="colophon" class="site-footer">
-	<  <div class="container-fluid">
+	 <div class="container-fluid">
 
             <div class="footer-block col-10 d-flex justify-content-between align-items-center">
                 <div class="block-aide">
@@ -24,19 +24,7 @@
             </div>
 
     </div>
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'addev' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'addev' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'addev' ), 'addev', '<a href="http://underscores.me/">Underscores.me</a>' );
-				?>
-		</div><!-- .site-info -->
+		
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
