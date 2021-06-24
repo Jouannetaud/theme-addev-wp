@@ -66,7 +66,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-html {
+ html {
 	line-height: 1.15;
 	-webkit-text-size-adjust: 100%;
 }
@@ -968,15 +968,6 @@ textarea {
 	margin-bottom: 1.5em;
 }
 
-
-
-
-
-
-
-
-
-
 body {
 	margin: 0;
 	padding: 0;
@@ -992,8 +983,15 @@ body {
 }
 
 
-.navbar {
+
+.post, .page{
+	margin:0;
+}
+.vc_column-inner{
 	padding: 0;
+}
+.block-icon-nav{
+	padding:0;
 }
 
 .border-icon-nav {
@@ -1012,18 +1010,16 @@ body {
 	margin-right: 60px;
 }
 
-footer {
-	position: absolute;
-	bottom: 0;
+.footer-add {
 	width: 100%;
 }
 
-footer a {
+.footer-add a {
 	text-decoration: none;
 	color: white;
 }
 
-footer a:hover {
+.footer-add a:hover {
 	color: grey;
 }
 
@@ -1035,10 +1031,11 @@ footer a:hover {
 	height: 500px;
 	align-self: flex-end;
 	background-color: #253746;
+	
 }
 
 .box-lateral {
-	position: relative;
+	z-index: 99;
 }
 
 .wrapper {
@@ -1086,8 +1083,7 @@ margin-top: 50px;
 height: 400px;
 width: 450px;
 overflow: scroll;
-padding-left: 15px;
-padding-right: 10px ;
+
 }
 
 .post::-webkit-scrollbar {
@@ -1143,7 +1139,7 @@ justify-content: space-between;
 }
 
 .etiquette {
-background-color: hotpink;
+
 width: 50px;
 height: 15px;
 }
@@ -1159,11 +1155,10 @@ width: 350px;
 }
 
 .p-in-post{
-
 align-items: center;
-text-align: center;
-height: 80px;
-padding: 1.5px;
+    text-align: center;
+    height: 65px;
+    padding-left: 5px;
 }
 
 .container-icon-post{
@@ -1200,19 +1195,15 @@ display: none;
 padding:15px;
 color: white;
 }
-
 .container-member{
 background-color: #aa9c8f;
 height: 390px;
 }
-
 .border-member{
 color: white;
 padding: 5px;
 box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
 }
-
-
 #carousel {
 	display: flex;
 	justify-content: flex-end;
@@ -1228,12 +1219,9 @@ box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
 	text-align: center;
 	align-items: center;
 	border-radius: 30px;
-
-
 }
 
 .hours {
-
  display: flex;
  justify-content: flex-end;
  width: 300px;
@@ -1248,4 +1236,93 @@ box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
  padding-right: 35px;
 }
 
+.fa-angle-left, .fa-angle-right {
+	color: #253746;
+}
 
+.navbar{
+    padding: 0;
+}
+
+.mec-calendar{
+    padding:0px;
+    margin:0;
+    width: 50%;
+    border: none;
+}
+
+.mec-calendar-topsec{
+    padding: 0;
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.mec-clear, .mec-calendar-side{
+padding:0 !important;
+    
+}
+
+
+.menu-lateral-bloc {
+	height: 500px;
+	align-self: flex-end;
+	background-color: #253746;
+	position:fixed !important;
+	top: 178px;
+	width:8% !important;
+}
+
+.box-lateral {
+	position: relative;
+	display:flex;
+	
+}
+
+.wrapper {
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	background-color: #253746;
+	transition-delay: .1s;
+	transition-duration: .8s;
+	padding-right: 15rem;
+	right: 0;
+	height: 100%;
+}
+
+.wrapper a {
+	position: inherit;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	color: white;
+	font-weight: 900;
+	text-decoration: none;
+
+}
+
+.wrapper a:hover {
+	color: white;
+}
+
+.wrapper:hover {
+	opacity: 1;
+	transform: translateX(-6rem);
+}
+
+
+.fa-angle-left, .fa-angle-right {
+	color: #253746;
+}
+
+#carousel{
+    background-color: white;
+}
+
+#mec_skin_5{
+    display: flex;
+    justify-content: center ;
+}

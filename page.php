@@ -32,10 +32,10 @@ get_header();
 
 <div class="container-fluid lateral-position d-block float-right">
             <div class="row d-flex justify-content-end">
-                <div class=" col-1 d-flex flex-column justify-content-center menu-lateral-bloc dropdown">
+                <div class=" d-flex flex-column justify-content-center menu-lateral-bloc dropdown">
                     <div class="box-lateral">
                         <a href="http://" class="slide-toggle">
-                            <img src="wp-content/themes/addev/assets/images/logolateral/esperluette.pngg" alt="" class="img-fluid" />
+                            <img src="wp-content/themes/addev/assets/images/logolateral/esperluette.png" alt="" class="img-fluid" />
                         </a>
                         <div class="wrapper">
                             <a href="http://" class="w-100">INFOS GROUPE</a>

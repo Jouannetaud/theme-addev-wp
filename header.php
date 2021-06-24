@@ -25,7 +25,8 @@
 </head>
 
 <body <?php body_class(); ?>>
-<nav class="navbar navbar-light bg-light">
+	<header>
+<nav class="navbar">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-6">
@@ -38,26 +39,13 @@
                         <a href="#"><img src="wp-content/themes/addev/assets/images/logoheader/mail.png" alt="" width="35px" height=" 35px" class="align-text-top"></a>
                         <a href="#"><img src="wp-content/themes/addev/assets/images/logoheader/favoris.png" alt="" width="32px" height="32px" class=" icone-nav align-text-top"></a>
                         <a href="#"><img src="wp-content/themes/addev/assets/images/logoheader/notifications.png" width="32px" height="32px" alt="" class="icone-nav align-text-top"></a>
-                        <a href="#"><img src="wp-content/themes/addev/assets/images/nav.jpg" width="32px" height="32px" alt="" class=" icone-nav align-text-top"></a>
+                        <a href="#"><img src="wp-content/themes/addev/assets/images/logoheader/Francedrapeau.png" width="30px" height="32px" alt="" class="icone-nav align-text-top"></a>
+						<a href="#"><img src="wp-content/themes/addev/assets/images/nav.jpg" width="42px" height="42px" alt="" class=" icone-nav align-text-top"></a>
                     </div>
                 </div>
             </div>
         </div>
     </nav>
 	<?php wp_body_open(); ?>
-	
-	<div id="page" class="site">
-		
-		<header id="masthead" class="site-header">
-			<div class="site-branding">
-				
-					
-					
-				
-				
-			</div>
-
-			<nav id="site-navigation" class="main-navigation">
-			
-			</nav><!-- #site-navigation -->
 		</header><!-- #masthead -->
+	

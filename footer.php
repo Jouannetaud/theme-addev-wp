@@ -11,8 +11,8 @@
 
 ?>
 
-	<footer id="colophon" class="site-footer">
-	 <div class="container-fluid">
+	<footer id="" class="footer-add">
+	 <div class="">
 
             <div class="footer-block col-10 d-flex justify-content-between align-items-center">
                 <div class="block-aide">
@@ -25,8 +25,8 @@
 
     </div>
 		
-	</footer><!-- #colophon -->
-</div><!-- #page -->
+	</footer>
+
 
 <?php wp_footer(); ?>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
